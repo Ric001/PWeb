@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import moment from 'moment'
-import './message.css'
+import moment from 'moment';
+import './message.css';
+
 class Message extends Component {
-    constructor (props) {
-        super (props)
-    }
+    
 
     render () {
         let dateFormat = moment(this.props.date).fromNow()
