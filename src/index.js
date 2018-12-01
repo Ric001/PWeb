@@ -4,15 +4,7 @@ import './index.css';
 import App from './Components/App/App';
 import * as serviceWorker from './serviceWorker';
 
-class Test extends React.Component {
-    render () {
-        return (
-            <h1>Reacttr</h1>
-        )
-    }
-}
 
-ReactDOM.render(<Test />, document.getElementById('root'));
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
