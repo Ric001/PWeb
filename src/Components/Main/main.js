@@ -7,7 +7,7 @@ class Main extends Component {
             messages: [
                 {
                 text: 'Mensaje de prueba',
-                piture: 'https://static.iris.net.co/semana/upload/images/2015/10/23/447377_20029_1.jpg',
+                picture: 'https://static.iris.net.co/semana/upload/images/2015/10/23/447377_20029_1.jpg',
                 displayName: 'Carlos Azaustre',
                 username: 'carlosazaustre',
                 date: Date.now()
